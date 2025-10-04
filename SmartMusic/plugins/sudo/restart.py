@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from BrandrdXMusic import app
-from BrandrdXMusic.misc import HAPP, SUDOERS, XCB
-from BrandrdXMusic.utils.database import (
+from SmartMusic import app
+from SmartMusic.misc import HAPP, SUDOERS, XCB
+from SmartMusic.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from BrandrdXMusic.utils.decorators.language import language
-from BrandrdXMusic.utils.pastebin import HottyBin
+from SmartMusic.utils.decorators.language import language
+from SmartMusic.utils.pastebin import HottyBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
