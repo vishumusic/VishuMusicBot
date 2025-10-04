@@ -7,17 +7,17 @@ import asyncio
 from pyrogram import client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
-from BrandrdXMusic.utils.database import get_assistant
+from SmartMusic.utils.database import get_assistant
 import config
-from BrandrdXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.misc import SUDOERS
-from BrandrdXMusic.utils import seconds_to_min, time_to_seconds
-from BrandrdXMusic.utils.channelplay import get_channeplayCB
-from BrandrdXMusic.utils.decorators.language import languageCB
-from BrandrdXMusic.utils.decorators.play import PlayWrapper
-from BrandrdXMusic.utils.formatters import formats
-from BrandrdXMusic.utils.database import (
+from SmartMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from SmartMusic.core.call import Hotty
+from SmartMusic.misc import SUDOERS
+from SmartMusic.utils import seconds_to_min, time_to_seconds
+from SmartMusic.utils.channelplay import get_channeplayCB
+from SmartMusic.utils.decorators.language import languageCB
+from SmartMusic.utils.decorators.play import PlayWrapper
+from SmartMusic.utils.formatters import formats
+from SmartMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -25,10 +25,10 @@ from BrandrdXMusic.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from BrandrdXMusic.utils.logger import play_logs
+from SmartMusic.utils.logger import play_logs
 from config import BANNED_USERS, lyrical
 from time import time
-from BrandrdXMusic.utils.extraction import extract_user
+from SmartMusic.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
@@ -41,18 +41,18 @@ SPAM_WINDOW_SECONDS = 5
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from BrandrdXMusic import Carbon, YouTube, app
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.misc import db
-from BrandrdXMusic.utils.database import add_active_video_chat, is_active_chat
-from BrandrdXMusic.utils.exceptions import AssistantErr
-from BrandrdXMusic.utils.inline import (
+from SmartMusic import Carbon, YouTube, app
+from SmartMusic.core.call import Hotty
+from SmartMusic.misc import db
+from SmartMusic.utils.database import add_active_video_chat, is_active_chat
+from SmartMusic.utils.exceptions import AssistantErr
+from SmartMusic.utils.inline import (
     aq_markup,
     close_markup,
     stream_markup,
 )
-from BrandrdXMusic.utils.pastebin import HottyBin
-from BrandrdXMusic.utils.stream.queue import put_queue, put_queue_index
+from SmartMusic.utils.pastebin import HottyBin
+from SmartMusic.utils.stream.queue import put_queue, put_queue_index
 from youtubesearchpython.__future__ import VideosSearch
 
 
