@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.misc import SUDOERS, db
-from BrandrdXMusic.utils import AdminRightsCheck
-from BrandrdXMusic.utils.database import is_active_chat, is_nonadmin_chat
-from BrandrdXMusic.utils.decorators.language import languageCB
-from BrandrdXMusic.utils.inline import close_markup, speed_markup
+from SmartMusic import app
+from SmartMusic.core.call import Hotty
+from SmartMusic.misc import SUDOERS, db
+from SmartMusic.utils import AdminRightsCheck
+from SmartMusic.utils.database import is_active_chat, is_nonadmin_chat
+from SmartMusic.utils.decorators.language import languageCB
+from SmartMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
