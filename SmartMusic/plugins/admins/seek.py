@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from BrandrdXMusic import YouTube, app
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.misc import db
-from BrandrdXMusic.utils import AdminRightsCheck, seconds_to_min
-from BrandrdXMusic.utils.inline import close_markup
+from SmartMusic import YouTube, app
+from SmartMusic.core.call import Hotty
+from SmartMusic.misc import db
+from SmartMusic.utils import AdminRightsCheck, seconds_to_min
+from SmartMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
