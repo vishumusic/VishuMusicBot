@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.core.call import Hotty
+from SmartMusic import app
+from SmartMusic.core.call import Hotty
 
 welcome = 20
 close = 30
