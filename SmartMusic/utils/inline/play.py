@@ -1,6 +1,6 @@
 import math
 from pyrogram.types import InlineKeyboardButton
-from BrandrdXMusic.utils.formatters import time_to_seconds
+from SmartMusic.utils.formatters import time_to_seconds
 
 
 # Track Markup
