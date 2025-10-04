@@ -20,9 +20,9 @@ from pytgcalls.types import (
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from BrandrdXMusic import LOGGER, YouTube, app
-from BrandrdXMusic.misc import db
-from BrandrdXMusic.utils.database import (
+from SmartMusic import LOGGER, YouTube, app
+from SmartMusic.misc import db
+from SmartMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -34,11 +34,11 @@ from BrandrdXMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from BrandrdXMusic.utils.exceptions import AssistantErr
-from BrandrdXMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from BrandrdXMusic.utils.inline.play import stream_markup
-from BrandrdXMusic.utils.stream.autoclear import auto_clean
-from BrandrdXMusic.utils.thumbnails import get_thumb
+from SmartMusic.utils.exceptions import AssistantErr
+from SmartMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from SmartMusic.utils.inline.play import stream_markup
+from SmartMusic.utils.stream.autoclear import auto_clean
+from SmartMusic.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
@@ -55,7 +55,7 @@ async def _clear_(chat_id):
 class Call(PyTgCalls):
     def __init__(self):
         self.userbot1 = Client(
-            name="BrandrdXMusic1",
+            name="SmartMusic1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -65,7 +65,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot2 = Client(
-            name="BrandrdXMusic2",
+            name="SmartMusic2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -75,7 +75,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot3 = Client(
-            name="BrandrdXMusic3",
+            name="SmartMusic3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -85,7 +85,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot4 = Client(
-            name="BrandrdXMusic4",
+            name="SmartMusic4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
@@ -95,7 +95,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot5 = Client(
-            name="BrandrdXMusic5",
+            name="SmartMusic5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
