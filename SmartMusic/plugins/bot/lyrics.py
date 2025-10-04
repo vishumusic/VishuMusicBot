@@ -6,8 +6,8 @@ import lyricsgenius as lg
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.utils.decorators.language import language
+from SmartMusic import app
+from SmartMusic.utils.decorators.language import language
 
 from config import BANNED_USERS, lyrical
 
