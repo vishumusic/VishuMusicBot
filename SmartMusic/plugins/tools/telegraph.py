@@ -1,7 +1,7 @@
 import os
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from BrandrdXMusic import app
+from SmartMusic import app
 import requests
 
 
