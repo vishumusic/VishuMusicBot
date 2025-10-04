@@ -10,8 +10,8 @@ from pyrogram.types import (
     InputMediaVideo,
 )
 
-from BrandrdXMusic import app
-from BrandrdXMusic.utils.database import (
+from SmartMusic import app
+from SmartMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -27,15 +27,15 @@ from BrandrdXMusic.utils.database import (
     skip_off,
     skip_on,
 )
-from BrandrdXMusic.utils.decorators.admins import ActualAdminCB
-from BrandrdXMusic.utils.decorators.language import language, languageCB
-from BrandrdXMusic.utils.inline.settings import (
+from SmartMusic.utils.decorators.admins import ActualAdminCB
+from SmartMusic.utils.decorators.language import language, languageCB
+from SmartMusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from BrandrdXMusic.utils.inline.start import private_panel
+from SmartMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID, MUSIC_BOT_NAME, START_IMG_URL
 
 
@@ -405,3 +405,4 @@ async def vote_change(client, CallbackQuery, _):
         )
     except MessageNotModified:
         return
+
