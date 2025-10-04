@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from BrandrdXMusic import YouTube, app
-from BrandrdXMusic.misc import SUDOERS
-from BrandrdXMusic.utils.database import (
+from SmartMusic import YouTube, app
+from SmartMusic.misc import SUDOERS
+from SmartMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
