@@ -1,5 +1,5 @@
-from BrandrdXMusic import app
-from BrandrdXMusic.utils.database import get_cmode
+from SmartMusic import app
+from SmartMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
