@@ -1,4 +1,4 @@
-from BrandrdXMusic.utils.mongo import db
+from SmartMusic.utils.mongo import db
 
 coupledb = db.couple
 
