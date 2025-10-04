@@ -24,7 +24,7 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="BrandrdXMusic1",
+            name="SmartMusic1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -33,7 +33,7 @@ class Userbot(Client):
         )
             
         self.two = Client(
-            name="BrandrdXMusic2",
+            name="SmartMusic2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -41,7 +41,7 @@ class Userbot(Client):
             ipv6=False,
         )
         self.three = Client(
-            name="BrandrdXMusic3",
+            name="SmartMusic3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -49,7 +49,7 @@ class Userbot(Client):
             ipv6=False,
         )
         self.four = Client(
-            name="BrandrdXMusic4",
+            name="SmartMusic4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
@@ -57,7 +57,7 @@ class Userbot(Client):
             ipv6=False,
         )
         self.five = Client(
-            name="BrandrdXMusic5",
+            name="SmartMusic5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
