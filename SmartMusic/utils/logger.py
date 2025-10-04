@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from BrandrdXMusic import app
-from BrandrdXMusic.utils.database import is_on_off
+from SmartMusic import app
+from SmartMusic.utils.database import is_on_off
 from config import LOGGER_ID
 
 
