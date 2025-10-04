@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from BrandrdXMusic import YouTube, app
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.misc import db
-from BrandrdXMusic.utils.database import get_loop
-from BrandrdXMusic.utils.decorators import AdminRightsCheck
-from BrandrdXMusic.utils.inline import close_markup, stream_markup
-from BrandrdXMusic.utils.stream.autoclear import auto_clean
-from BrandrdXMusic.utils.thumbnails import get_thumb
+from SmartMusic import YouTube, app
+from SmartMusic.core.call import Hotty
+from SmartMusic.misc import db
+from SmartMusic.utils.database import get_loop
+from SmartMusic.utils.decorators import AdminRightsCheck
+from SmartMusic.utils.inline import close_markup, stream_markup
+from SmartMusic.utils.stream.autoclear import auto_clean
+from SmartMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
