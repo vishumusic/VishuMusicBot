@@ -12,15 +12,15 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtube_search import YoutubeSearch
 
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
-from BrandrdXMusic import Carbon, app
-from BrandrdXMusic.utils.decorators.language import language, languageCB
-from BrandrdXMusic.utils.inline.playlist import (
+from SmartMusic import Carbon, app
+from SmartMusic.utils.decorators.language import language, languageCB
+from SmartMusic.utils.inline.playlist import (
     botplaylist_markup,
     get_playlist_markup,
     warning_markup,
 )
-from BrandrdXMusic.utils.pastebin import HottyBin
-from BrandrdXMusic.utils.stream.stream import stream
+from SmartMusic.utils.pastebin import HottyBin
+from SmartMusic.utils.stream.stream import stream
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
@@ -28,7 +28,7 @@ user_command_count = {}
 # Define the threshold for command spamming (e.g., 20 commands within 60 seconds)
 SPAM_THRESHOLD = 2
 SPAM_WINDOW_SECONDS = 5
-from BrandrdXMusic.core.mongo import mongodb
+from SmartMusic.core.mongo import mongodb
 
 playlistdb = mongodb.playlist
 playlist = []
