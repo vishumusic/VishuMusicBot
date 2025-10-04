@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.misc import SUDOERS
-from BrandrdXMusic.utils.database import add_sudo, remove_sudo
-from BrandrdXMusic.utils.decorators.language import language
-from BrandrdXMusic.utils.extraction import extract_user
-from BrandrdXMusic.utils.inline import close_markup
+from SmartMusic import app
+from SmartMusic.misc import SUDOERS
+from SmartMusic.utils.database import add_sudo, remove_sudo
+from SmartMusic.utils.decorators.language import language
+from SmartMusic.utils.extraction import extract_user
+from SmartMusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
