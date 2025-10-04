@@ -16,10 +16,10 @@ from config import (
     SONG_DOWNLOAD_DURATION,
     SONG_DOWNLOAD_DURATION_LIMIT,
 )
-from BrandrdXMusic import YouTube, app
-from BrandrdXMusic.utils.decorators.language import language, languageCB
-from BrandrdXMusic.utils.formatters import convert_bytes
-from BrandrdXMusic.utils.inline.song import song_markup
+from SmartMusic import YouTube, app
+from SmartMusic.utils.decorators.language import language, languageCB
+from SmartMusic.utils.formatters import convert_bytes
+from SmartMusic.utils.inline.song import song_markup
 
 # Song Module
 
