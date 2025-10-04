@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.utils.database import get_lang, set_lang
-from BrandrdXMusic.utils.decorators import (ActualAdminCB, language, languageCB)
+from SmartMusic import app
+from SmartMusic.utils.database import get_lang, set_lang
+from SmartMusic.utils.decorators import (ActualAdminCB, language, languageCB)
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
