@@ -3,9 +3,9 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.mongo.afkdb import LOGGERS as OWNERS
-from BrandrdXMusic.utils.database import add_served_chat, get_assistant
+from SmartMusic import app
+from SmartMusic.mongo.afkdb import LOGGERS as OWNERS
+from SmartMusic.utils.database import add_served_chat, get_assistant
 
 
 @app.on_message(filters.command("repo"))
