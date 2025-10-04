@@ -1,8 +1,8 @@
-from BrandrdXMusic.core.bot import Hotty
-from BrandrdXMusic.core.dir import dirr
-from BrandrdXMusic.core.git import git
-from BrandrdXMusic.core.userbot import Userbot
-from BrandrdXMusic.misc import dbb, heroku
+from SmartMusic.core.bot import Hotty
+from SmartMusic.core.dir import dirr
+from SmartMusic.core.git import git
+from SmartMusic.core.userbot import Userbot
+from SmartMusic.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
@@ -27,4 +27,4 @@ Resso = RessoAPI()
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
 
-APP = "BRANDED_KUDI_BOT"  # connect music api key "Dont change it"
+APP = "HungamaMusiccRobot"  # connect music api key "Dont change it"
